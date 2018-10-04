@@ -1,0 +1,5 @@
+.*
+!.gitignore
+public/
+themes/
+update_theme.sh
