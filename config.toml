@@ -1,4 +1,6 @@
 baseurl = "http://localhost:1313/"
+uglyurls = true
+relativeURLs=true
 languageCode = "zh-cn"
 title = "ServiceMesh学习笔记"
 theme = "hugo-material-docs"
@@ -50,13 +52,13 @@ googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
 
 [[menu.main]]
 	name   = "前言"
-	url    = "/"
+	url    = "/index.html"
 	weight = 1
 
 [[menu.main]]
 	name   = "介绍"
 	identifier = "introduction"
-	url    = "/introduction/"
+	url    = "/introduction/index.html"
 	weight = 100
 
 [blackfriday]
