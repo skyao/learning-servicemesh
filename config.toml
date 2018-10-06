@@ -1,6 +1,6 @@
 baseurl = "http://localhost:1313/"
 uglyurls = true
-relativeURLs=true
+relativeURLs=false
 languageCode = "zh-cn"
 title = "ServiceMesh学习笔记"
 theme = "hugo-material-docs"
@@ -16,7 +16,7 @@ googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
 	# General information
 	author = "敖小剑"
 	keywords = "servicemesh,service mesh,服务网格,学习笔记,敖小剑"
-	description = "ServiceMesh是新兴的微服务架构，被誉为下一代微服务，是云原生的重要基石之一。"
+	description = "ServiceMesh是新兴的微服务架构，被誉为下一代微服务，是云原生技术栈的关键组件之一。"
 	copyright = "版权所有，转载请注明出处"
 
 	# Repository
@@ -52,13 +52,13 @@ googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
 
 [[menu.main]]
 	name   = "前言"
-	url    = "/index.html"
+	url    = "/"
 	weight = 1
 
 [[menu.main]]
 	name   = "介绍"
 	identifier = "introduction"
-	url    = "/introduction/index.html"
+	url    = "/introduction/"
 	weight = 100
 
 [blackfriday]
