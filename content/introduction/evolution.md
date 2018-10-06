@@ -162,7 +162,40 @@ Sidecar模式借鉴了Proxy模式的思路，Sidecar扮演的角色和Proxy很�
 
 ![](images/qcon-ppt-28.jpg)
 
+在2017年之前，Service Mesh的发展和演进可谓按部就班不紧不慢。然后在2017年，突然加速：
 
+- 2017年1月，Linkerd加入CNCF；
+- 2017年4月，Linkerd发布1.0版本；
+- 同日William Morgan意气风发的发布博文”What’s a service mesh? And why do I need one?“，正式给Service Mesh做了一个权威定义（我们前面看到的），Linkerd。
+- 一个月后，2017年5月，Google/IBM/Lyft联手发布Istio 0.1版本。
+- 2017年9月，Envoy加入CNCF
 
+在第一代Service Mesh产品如LInkerd、Envoy刚刚发展成熟，正要开始逐渐推广时，以Istio为代表的第二代Service Mesh产品就突然登场，直接改变市场格局。
 
+**第二代Service Mesh和第一代Service Mesh的差异在于是否有控制平面**：
 
+- 第一代Service Mesh只有数据平面（即Sidecar），所有功能都在Sidecar中实现
+- 第二代Service Mesh增加了控制平面，带来了远超第一代的控制力，功能也更加丰富
+
+![](images/qcon-ppt-29.jpg)
+
+Istio最大的创新是它为Service Mesh带来了前所未有的控制力：
+
+- 以Sidecar方式部署的Service Mesh控制了服务间所有的流量
+- Istio增加了控制面板来控制系统中所有的Sidecar
+- 这样就能够控制所有的流量，也就可以控制系统中的所有请求的发送
+
+Istio出现之后，Linkerd陷入困境，Envoy则作为Istio的数据平面和Istio一起发展。随后Buoyant公司推出了全新的Conduit应对Istio的强力竞争，我们将在下一章中详细讲述Service Mesh的开源产品和市场竞争。
+
+## 总结
+
+![](images/qcon-ppt-33.jpg)
+
+Service Mesh的演进过程，就是这样一步一步过来的：
+
+- Proxy模式进行探索，隔离客户端和服务器端，部分功能下沉到中间层；但是功能有限
+- Sidecar模式弥补Proxy模式功能不足的缺陷，功能对齐传统类库；但是有很大的局限性，无法通用
+- 第一代Service Mesh解决Sidecar模式的通用性问题，可以不受限于原有环境；但是控制力不够强大
+- 第二代Service Mesh通过增加控制平面来加强控制，并带来更强大的功能
+
+目前第二代的Service Mesh还继续完善中，即将成熟，敬请关注。
