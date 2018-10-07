@@ -11,6 +11,7 @@ keywords:
 - 社区资料
 - 学习资料
 description : "收集service mesh的各种资料"
+draft: true
 ---
 
 ## 官方资料

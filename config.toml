@@ -61,6 +61,12 @@ googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
 	url    = "/introduction/"
 	weight = 100
 
+[[menu.main]]
+	name   = "Istio"
+	identifier = "istio"
+	url    = "/istio/"
+	weight = 200
+
 [blackfriday]
 	smartypants	= true
 	fractions = true
