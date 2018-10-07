@@ -172,7 +172,7 @@ Sidecar模式借鉴了Proxy模式的思路，Sidecar扮演的角色和Proxy很�
 - 一个月后，2017年5月，Google/IBM/Lyft联手发布Istio 0.1版本。
 - 2017年9月，Envoy加入CNCF
 
-在第一代Service Mesh产品如LInkerd、Envoy刚刚发展成熟，正要开始逐渐推广时，以Istio为代表的第二代Service Mesh产品就突然登场，直接改变市场格局。
+在第一代Service Mesh产品如Linkerd、Envoy刚刚发展成熟，正要开始逐渐推广时，以Istio为代表的第二代Service Mesh产品就突然登场，直接改变市场格局。
 
 **第二代Service Mesh和第一代Service Mesh的差异在于是否有控制平面**：
 
