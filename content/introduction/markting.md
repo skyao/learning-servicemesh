@@ -22,7 +22,7 @@ description : "详细介绍Service Mesh市场竞争"
 
 虽然直到2017年底，Service Mesh才开始较大规模被世人了解，这场微服务市场之争也才显现，但是其实Service Mesh这股微服务的新势力，早在 2016年初就开始萌芽：
 
-- 2016年1月15日，离开twitter的基础设施工程师William Morgan和Oliver Gould，在github上发布了linkerd 0.0.7版本，他们同时组建了一个创业小公司Buoyant，业界第一个Service Mesh项目诞生。
+- 2016年1月15日，离开Twitter的基础设施工程师William Morgan和Oliver Gould，在github上发布了Linkerd 0.0.7版本，他们同时组建了一个创业小公司Buoyant，业界第一个Service Mesh项目诞生。
 
 - 2016年，Matt Klein在Lyft默默的进行Envoy的开发。Envoy诞生的时间其实要比Linkerd更早一些，只是在Lyft内部不为人所知。
 
@@ -31,12 +31,12 @@ description : "详细介绍Service Mesh市场竞争"
 - 2016年9月29日在SF Microservices上，“Service Mesh”这个词汇第一次在公开场合被使用。这标志着“Service Mesh”这个词，从Buoyant公司走向社区。
 - 2016年10月，Alex Leong开始在buoyant公司的官方Blog中开始”A Service Mesh for Kubernetes”系列博客的连载。随着”The services must mesh”口号的喊出，buoyant和Linkerd开始service mesh概念的布道。
 
-在这一年中，第一代的Service Mesh产品在稳步推进：
+在2016年，第一代的Service Mesh产品稳步推进：
 
 - 2016年9月13日，Matt Klein宣布Envoy在github开源，直接发布1.0.0版本
 - 2016年下半年，Linkerd陆续发布了0.8和0.9版本，开始支持HTTP/2 和gRPC，1.0发布在即；同时，借助Service Mesh在社区的认可度，Linkerd在年底开始申请加入CNCF。
 
-而在这个世界的另外一个角落，Google和IBM两位巨人，握手开始合作，他们联合Lyft，启动了Istio项目。这样，在第一代Service Mesh还未走向市场主流时，以Istio为代表的第二代Service Mesh就迫不及待地上路。
+而在这个世界的另外一个角落，Google和IBM两位巨人，握手开始合作，他们联合Lyft，启动了Istio项目。这样，在第一代Service Mesh还未走向市场主流时，以Istio为代表的第二代Service Mesh就迫不及待地准备上路。
 
 现在我们可以进入主题，开始2017和2018年Service Mesh市场竞争的回顾。
 
@@ -52,7 +52,7 @@ description : "详细介绍Service Mesh市场竞争"
 
 需要特别指出的是，Linkerd加入CNCF，对于Service Mesh技术是一个非常重要的历史事件：这代表着社区对Service Mesh理念的认同和赞赏，Service Mesh也因此得到社区更大范围的关注。
 
-趁热打铁，就在Linkerd 1.0版本发布的同一天，创作者继续Service Mesh的布道：
+趁热打铁，就在Linkerd 1.0版本发布的同一天，Service Mesh的前驱继续Service Mesh的布道：
 
 - 2017年4月25日，William Morgan发布博文”What’s a service mesh? And why do I need one?“。正式给Service Mesh做了一个权威定义。
 
@@ -62,12 +62,12 @@ description : "详细介绍Service Mesh市场竞争"
 
 Linkerd的风光瞬间被盖过，从意气风发的少年一夜之间变成过气网红。当然，从产品成熟度上来说，linkerd作为业界仅有的两个生产级Service Mesh实现之一，暂时还可以在Istio成熟前继续保持市场。但是，随着Istio的稳步推进和日益成熟，外加第二代Service Mesh的天然优势，Istio取代第一代的Linkerd只是个时间问题。
 
-面对google和IBM加持的Istio，linkerd实在难有胜算：
+面对Google和IBM加持的Istio，linkerd实在难有胜算：
 
 - Istio作为第二代Service Mesh，通过控制平面带来了前所未有的控制力，远超Linkerd。
-- Istio通过收编和Linkerd同为第一代Service Mesh的envoy，直接拥有了一个功能和稳定性与linkerd在一个水准的数据平面（也就是作为 sidecar 模式部署的 proxy）。
-- 基于c++的envoy在性能和资源消耗上本来就强过基于Scala/Jvm的Linkerd
-- Google和IBM组合在人力，资源和社区影响力方面远非Buoyant公司这样的小公司可以比拟
+- Istio通过收编和Linkerd同为第一代Service Mesh的Envoy，直接拥有了一个功能和稳定性与Linkerd在一个水准的数据平面。
+- 基于c++的Envoy在性能和资源消耗上本来就强过基于Scala/Jvm的Linkerd
+- Google和IBM在人力，资源和社区影响力方面远非Buoyant公司可以比拟
 
 Linkerd的发展态势顿时急转而下，未来陷入一片黑暗。出路在哪里？
 
@@ -86,7 +86,7 @@ Linkerd的这个谜团，直到2017年即将结束的12月，在Conduit发布之
 
 自从在2016年决定委身于Istio之后，Envoy就开始了一条波澜不惊的平稳发展之路，和Linkerd的跌宕起伏完全不同。
 
-在功能方面，由于定位在数据平面，因此Envoy无需考虑太多，很多工作在Istio的控制平面完成就好，Envoy从此专心于将数据平面做好，完善各种细节。在市场方面，Envoy和Linkerd性质不同，不存在生存和发展的战略选择，也没有正面对抗生死大敌的巨大压力。Envoy在2017年有条不紊地陆续发布了1.2、1.3、1.4和1.5版本，在2018年发布了1.6，1.7，1.8版本，稳步地完善自身，表现非常稳健。
+在功能方面，由于定位在数据平面，因此Envoy无需考虑太多，很多工作在Istio的控制平面完成就好，Envoy从此专心于将数据平面做好，完善各种细节。在市场方面，Envoy和Linkerd性质不同，不存在生存和发展的战略选择，也没有正面对抗生死大敌的巨大压力。Envoy在2017年有条不紊地陆续发布了1.2、1.3、1.4和1.5版本，在2018年发布了1.6、1.7、1.8版本，稳步地完善自身，表现非常稳健。
 
 稳打稳扎的Envoy一方面继续收获独立客户，一方面伴随Istio一起成长。作为业界仅有的两个生产级Service Mesh实现之一，Envoy在2017年中收获了属于它的殊荣：
 
@@ -125,7 +125,7 @@ Istio面世之后，赞誉不断，尤其是Service Mesh技术的爱好者，可
 - 2018年10月，预计发布1.1.0版本
 
 
-从目前局势看，Istio慢慢的完善产品，表现相对2018年要成熟很多，但是依然存在诸多问题，依然缺乏大规模的落地实践。但相信随着时间的推移，Google和Istio社区应该能够继续向前推进。
+从目前发展态势看，Istio慢慢的完善产品，表现相对2017年要成熟很多，虽然依然存在诸多问题，虽然依然缺乏大规模的落地实践。但相信随着时间的推移，Google和Istio社区应该能够继续向前推进。
 
 ## 背水一战的Buoyant
 
@@ -135,16 +135,16 @@ Istio面世之后，赞誉不断，尤其是Service Mesh技术的爱好者，可
 
 Conduit的整体架构和Istio一致，借鉴了Istio数据平面+控制平面的设计，同时别出心裁地选择了Rust编程语言来实现数据平面，以达成Conduit 宣称的更轻、更快和超低资源占用。
 
-继Isito之后，业界第二款第二代Service Mesh产品就此诞生。话说得有些拗口，但是一场大战就此浮出水面。Buoyant在Linkerd不敌Istio的恶劣情况下，绝地反击，祭出全新设计的Conduit作为对抗Istio的武器。
+继Isito之后，业界第二款第二代Service Mesh产品就此诞生，一场大战就此浮出水面。Buoyant在Linkerd不敌Istio的恶劣情况下，绝地反击，祭出全新设计的Conduit作为对抗Istio的武器。
 
 需要额外指出的是，作为一家初创型企业，在第一款主力产品Linkerd被Istio强力阻击之后，Buoyant已经身陷绝境，到了生死存亡之秋，作为背负公司期望，担负和Istio正面抗衡职责的Conduit，可谓压力巨大。
 
 从目前得到的信息分析，Conduit明显是有备而来，针对Istio当前状况，针锋相对的：
 
-- **编程语言**：为了达成更轻、更快和更低资源消耗的目标，考虑到Istio的数据面板用的是基于C++语言的Envoy，Conduit跳过了Golang，直接选择了Rust，颇有些剑走偏锋的意味。不过，单纯以编程语言而言，在能够完全掌握的前提下，Rust的确是做proxy的最佳选择。考虑到Envoy在性能方面的良好表现，Conduit要想更进一步，选择Rust也是可以理解。
+- **编程语言**：为了达成更轻、更快和更低资源消耗的目标，考虑到Istio的数据面板用的是基于C++语言的Envoy，Conduit跳过了Golang，直接选择了Rust，颇有些剑走偏锋的意味。不过，单纯以编程语言而言，在能够完全掌握的前提下，Rust的确是做Proxy的最佳选择。考虑到Envoy在性能方面的良好表现，Conduit要想更进一步，选择Rust也是可以理解。
 - **架构设计**：在借鉴Istio整体架构的同时，Conduit做了一些改进。首先Conduit控制平面的各个组件是以服务的方式提供功能的，极富弹性。另外，控制平面特意为定制化需求进行了可扩展设计，可以通过编写gPRC插件来扩展Conduit的功能而无需直接修改Conduit，这对于有定制化需求的客户是非常便利的。
 
-然而，要抗衡Istio和其身后的Google与IBM，谈何容易。尤其控制平面选择Rust，成为一把双刃剑，固然Rust的上佳表现让Conduit在性能和资源消耗方面有不小的亮点，但是Rust毕竟是小众语言，普及程度远远不能和Java/C++/Golang相比，导致Conduit很难从社区借力。Conduit几乎是凭Buoyant以一家之力在独立支撑对抗Istio，终于难以为继：
+然而，要抗衡Istio和其身后的Google与IBM，谈何容易。尤其控制平面选择Rust，成为一把双刃剑，固然Rust的上佳表现让Conduit在性能和资源消耗方面有不小的亮点，但是Rust毕竟是小众语言，普及程度远远不能和Java/C++/Golang相比，导致Conduit很难从社区借力，体现在Conduit的contributor数量长期停滞在20人上下。Conduit几乎是凭Buoyant以一家之力在独立支撑对抗Istio庞大的社区，终于难以为继：
 
 - 2018年7月，Conduit 0.5发布，同时宣布这是 Conduit 最后一个版本，Conduit未来将作为Linkerd2.0的基础继续存在。随后Conduit的github仓库被从`runconduit/conduit更名`为`linkerd/linkerd2`
 
@@ -213,6 +213,8 @@ Red Hat正在与上游Istio社区合作，以帮助推进Istio框架，按照Red
 - 2017年底，新浪微博Service Mesh的核心实现，跨语言通信和服务治理已经在Motan系列项目中提供
 - 2018年6月，蚂蚁金服对外宣布Service Mesh类产品SOFAMesh，这是一个基于Istio的增强扩展版本，并使用基于Golang开发的SOFAMosn作为数据平面替代Envoy。
 - 2018年8月，华为开源了基于Golang的Servic Mesh产品——Mesher。
+
+从2017年底开始，国内技术社区就对Servic Mesh保持密切关注，尤其在Servicemesher社区成立后，社区内的分享和讨论非常密切，形成了良好的技术交流氛围。以蚂蚁金服、新浪微博、华为为代表的前锋力量相继开源为国内Servic Mesh社区的繁荣注入了活力，以InfoQ为代表的技术媒体也一直保持对Servic Mesh这种前沿技术的关注。
 
 ## 总结
 
