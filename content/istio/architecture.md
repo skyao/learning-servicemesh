@@ -124,7 +124,7 @@ Pilot的内部架构和与Envoy的交互如图所示：
 
 1. Envoy API负责和Envoy的通讯, 主要是发送服务发现信息和流量控制规则给Envoy
 2. Envoy原生提供服务发现，负载均衡池和路由表的动态更新的API（在Envoy中称为XDS API）。这些API将Istio和Envoy的实现解耦。(使得 Linkerd/ngxinmesh/SOFAMosn 等的其他数据平面实现可以平滑接替Envoy)
-3. Abstract Model 是 Polit 定义的服务的抽象模型, 以从特定平台细节中解耦, 为跨平台提供基础。
+3. Abstract Model 是 Pilot 定义的服务的抽象模型, 以从特定平台细节中解耦, 为跨平台提供基础。
 4. Platform Adapter则是这个抽象模型的实现版本, 用于对接外部的不同平台如k8s/mesos等
 5. 最后是 Rules API, 提供接口给外部调用以管理 Pilot, 包括命令行工具Istioctl以及未来可能出现的第三方管理界面
 
