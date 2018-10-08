@@ -178,11 +178,11 @@ Service Mesh市场，除了业界先驱Linkerd/Envoy，和后起之秀Istio/Cond
 
 在2018年9月，Aspen Mesh 1.0发布，基于Istio 1.0。注意这不是一个开源项目，但是可以在Aspen Mesh的官方网站上申请免费试用。
 
-### Consol Connect
+### Consul Connect
 
-Consol是来自HashiCorp公司的产品，主要功能是服务注册和服务发现，基于Golang和Raft协议。
+Consul是来自HashiCorp公司的产品，主要功能是服务注册和服务发现，基于Golang和Raft协议。
 
-在2018年6月26日发布的Consul 1.2版本中，提供了新的Connect功能，能够将现有的Consul集群自动转变为service mesh 。Connect 通过自动TLS加密和基于鉴权的授权机制支持服务和服务之间的安全通信。
+在2018年6月26日发布的Consul 1.2版本中，提供了新的Connect功能，能够将现有的Consul集群自动转变为Service Mesh。Connect 通过自动TLS加密和基于鉴权的授权机制支持服务和服务之间的安全通信。
 
 ### Kong
 
@@ -200,7 +200,7 @@ Red Hat正在与上游Istio社区合作，以帮助推进Istio框架，按照Red
 
 ## Service Mesh国内发展
 
-2017年，随着Servic Mesh的发展，国内技术社区也开始通过新闻报道/技术文章等开始接触Service Mesh，但是传播范围和影响力都非常有限。直到2017年底才剧烈升温，开始被国内技术社区关注：
+2017年，随着Service Mesh的发展，国内技术社区也开始通过新闻报道/技术文章等开始接触Service Mesh，但是传播范围和影响力都非常有限。直到2017年底才剧烈升温，开始被国内技术社区关注：
 
 - 2017年10月QCon上海站，来自敖小剑的名为”Service Mesh：下一代微服务”的演讲，成为Service Mesh技术在国内大型技术峰会上的第一次亮相。
 - 2017年12月，在全球架构师峰会（ArchSummit）2017北京站上，华为田晓亮分享了”Service Mesh在华为云的实践”。
@@ -208,13 +208,13 @@ Red Hat正在与上游Istio社区合作，以帮助推进Istio框架，按照Red
 - 2018年6月，Service Mesh中国技术社区成立，网站servicemesher.com开通，并开始在杭州，北京，深圳组织多场线下Meetup，同时组织翻译Envoy，Istio官方文档和各种博客文章，大力推动了Service Mesh在国内的交流与发展。
 - 2018年7月，Istio核心开发团队成员Lin Sun在ArchSummit2018深圳站进行了名为"Istio-构造、守护、监控微服务的守护神"的演讲，这是Istio官方在国内第一次亮相。 
 
-之后，作为Servic Mesh国内最早的开发和实践者，以下公司相继宣布和开源了自己的Service Mesh产品：
+之后，作为Service Mesh国内最早的开发和实践者，以下公司相继宣布和开源了自己的Service Mesh产品：
 
 - 2017年底，新浪微博Service Mesh的核心实现，跨语言通信和服务治理已经在Motan系列项目中提供
 - 2018年6月，蚂蚁金服对外宣布Service Mesh类产品SOFAMesh，这是一个基于Istio的增强扩展版本，并使用基于Golang开发的SOFAMosn作为数据平面替代Envoy。
-- 2018年8月，华为开源了基于Golang的Servic Mesh产品——Mesher。
+- 2018年8月，华为开源了基于Golang的Service Mesh产品——Mesher。
 
-从2017年底开始，国内技术社区就对Servic Mesh保持密切关注，尤其在Servicemesher社区成立后，社区内的分享和讨论非常密切，形成了良好的技术交流氛围。以蚂蚁金服、新浪微博、华为为代表的前锋力量相继开源为国内Servic Mesh社区的繁荣注入了活力，以InfoQ为代表的技术媒体也一直保持对Servic Mesh这种前沿技术的关注。
+从2017年底开始，国内技术社区就对Service Mesh保持密切关注，尤其在Servicemesher社区成立后，社区内的分享和讨论非常密切，形成了良好的技术交流氛围。以蚂蚁金服、新浪微博、华为为代表的前锋力量相继开源为国内Service Mesh社区的繁荣注入了活力，以InfoQ为代表的技术媒体也一直保持对Service Mesh这种前沿技术的关注。
 
 ## 总结
 
