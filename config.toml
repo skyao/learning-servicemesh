@@ -28,7 +28,9 @@ googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
 	favicon = ""
 	
 	permalink = "#"
-	
+    # reward button, comment this to disable it
+    reward = true
+
 	# Custom assets
 	custom_css = []
 	custom_js  = []
