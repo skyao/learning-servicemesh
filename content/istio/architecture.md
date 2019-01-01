@@ -54,7 +54,7 @@ Envoy是由Lyft开发并开源，基于c++的高性能代理。在前面的Servi
 - 负载均衡
 - 健康检查
 - 熔断器
-- 高级路由：路由规则由Polit下发，包括Content Based Routing和Version Based Routing
+- 高级路由：路由规则由Pilot下发，包括Content Based Routing和Version Based Routing
 - 基于百分比的流量拆分
 - 加密和认证: TLS certs来自 istio-Auth
 - 故障注入，以方便测试
