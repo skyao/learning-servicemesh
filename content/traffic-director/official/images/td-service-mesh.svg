@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 736 370" width="736" height="370">
+  <defs>
+    <clipPath id="inner_stroke_clip_path">
+      <path d="M 337.375 20 L 457.375 20 L 457.375 74 L 337.375 74 Z"/>
+    </clipPath>
+    <font-face font-family="Roboto" font-size="12" panose-1="2 0 0 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-73.24219" underline-thickness="48.828125" slope="0" x-height="528.3203" cap-height="710.9375" ascent="927.7344" descent="-244.14062" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Roboto-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Roboto" font-size="10" panose-1="2 0 0 0 0 0 0 0 0 0" units-per-em="1000" underline-position="-73.24219" underline-thickness="48.828125" slope="0" x-height="528.3203" cap-height="710.9375" ascent="927.7344" descent="-244.14062" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Roboto-Regular"/>
+      </font-face-src>
+    </font-face>
+    <clipPath id="inner_stroke_clip_path_2">
+      <path d="M 236.625 138.5 L 356.625 138.5 L 356.625 192.5 L 236.625 192.5 Z"/>
+    </clipPath>
+    <clipPath id="inner_stroke_clip_path_3">
+      <path d="M 236.625 256 L 356.625 256 L 356.625 310 L 236.625 310 Z"/>
+    </clipPath>
+    <clipPath id="inner_stroke_clip_path_4">
+      <path d="M 436.125 138.5 L 556.125 138.5 L 556.125 192.5 L 436.125 192.5 Z"/>
+    </clipPath>
+    <clipPath id="inner_stroke_clip_path_5">
+      <path d="M 436.125 256 L 556.125 256 L 556.125 310 L 436.125 310 Z"/>
+    </clipPath>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="TreehouseArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -5 10 10" markerWidth="10" markerHeight="10" color="#616161">
+      <g>
+        <path d="M 8 0 L 0 0 M 4 -4 L 8 0 L 4 4" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="TreehouseArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-9 -5 10 10" markerWidth="10" markerHeight="10" color="#616161">
+      <g>
+        <path d="M -8 0 L 0 0 M -4 4 L -8 0 L -4 -4" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.4 
+    <dc:date>2019-03-13 05:54:05 +0000</dc:date>
+  </metadata>
+  <g id="Diagram_1" stroke-dasharray="none" fill-opacity="1" fill="none" stroke="none" stroke-opacity="1">
+    <title>Diagram 1</title>
+    <rect fill="white" x="0" y="0" width="736" height="370"/>
+    <g id="Diagram_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Group_84">
+        <g id="Graphic_27">
+          <rect x="337.375" y="20" width="120" height="54" fill="white"/>
+          <rect x="337.375" y="20" width="120" height="54" stroke="#dfdfdf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" clip-path="url(#inner_stroke_clip_path)"/>
+          <text transform="translate(361.375 33)" fill="#212121">
+            <tspan font-family="Roboto" font-size="12" font-weight="400" fill="#212121" x=".19628906" y="11">Service Mesh</tspan>
+            <tspan font-family="Roboto" font-size="12" font-weight="400" fill="#212121" x=".11425781" y="25">Control Plane</tspan>
+          </text>
+        </g>
+        <g id="Graphic_43">
+          <title>zone external - blue</title>
+          <rect x="217.125" y="94" width="159.5" height="236" fill="#e1f6fe"/>
+          <text transform="translate(227.125 109)" fill="#757575">
+            <tspan font-family="Roboto" font-size="10" font-weight="400" fill="#757575" x="0" y="9">Pod</tspan>
+          </text>
+        </g>
+        <g id="Graphic_44">
+          <rect x="236.625" y="138.5" width="120" height="54" fill="white"/>
+          <rect x="236.625" y="138.5" width="120" height="54" stroke="#dfdfdf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" clip-path="url(#inner_stroke_clip_path_2)"/>
+          <text transform="translate(276.625 158.5)" fill="#212121">
+            <tspan font-family="Roboto" font-size="12" font-weight="400" fill="#212121" x=".4970703" y="11">Service</tspan>
+          </text>
+        </g>
+        <g id="Graphic_46">
+          <rect x="236.625" y="256" width="120" height="54" fill="white"/>
+          <rect x="236.625" y="256" width="120" height="54" stroke="#dfdfdf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" clip-path="url(#inner_stroke_clip_path_3)"/>
+          <text transform="translate(260.625 276)" fill="#212121">
+            <tspan font-family="Roboto" font-size="12" font-weight="400" fill="#212121" x=".12304688" y="11">Service Proxy</tspan>
+          </text>
+        </g>
+        <g id="Graphic_52">
+          <title>zone external - blue</title>
+          <rect x="416.625" y="94" width="159.5" height="236" fill="#e1f6fe"/>
+          <text transform="translate(426.625 109)" fill="#757575">
+            <tspan font-family="Roboto" font-size="10" font-weight="400" fill="#757575" x="0" y="9">VM</tspan>
+          </text>
+        </g>
+        <g id="Graphic_51">
+          <rect x="436.125" y="138.5" width="120" height="54" fill="white"/>
+          <rect x="436.125" y="138.5" width="120" height="54" stroke="#dfdfdf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" clip-path="url(#inner_stroke_clip_path_4)"/>
+          <text transform="translate(476.125 158.5)" fill="#212121">
+            <tspan font-family="Roboto" font-size="12" font-weight="400" fill="#212121" x=".4970703" y="11">Service</tspan>
+          </text>
+        </g>
+        <g id="Graphic_50">
+          <rect x="436.125" y="256" width="120" height="54" fill="white"/>
+          <rect x="436.125" y="256" width="120" height="54" stroke="#dfdfdf" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" clip-path="url(#inner_stroke_clip_path_5)"/>
+          <text transform="translate(460.125 276)" fill="#212121">
+            <tspan font-family="Roboto" font-size="12" font-weight="400" fill="#212121" x=".12304688" y="11">Service Proxy</tspan>
+          </text>
+        </g>
+        <g id="Line_64">
+          <title>path double arrow - grey primary</title>
+          <line x1="366.525" y1="283" x2="426.225" y2="283" marker-end="url(#TreehouseArrow_Marker)" marker-start="url(#TreehouseArrow_Marker_2)" stroke="#616161" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_65">
+          <title>path double arrow - grey primary</title>
+          <line x1="496.125" y1="246.1" x2="496.125" y2="202.4" marker-end="url(#TreehouseArrow_Marker)" marker-start="url(#TreehouseArrow_Marker_2)" stroke="#616161" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_66">
+          <title>path double arrow - grey primary</title>
+          <line x1="296.625" y1="246.1" x2="296.625" y2="202.4" marker-end="url(#TreehouseArrow_Marker)" marker-start="url(#TreehouseArrow_Marker_2)" stroke="#616161" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Line_67">
+          <title>path solid</title>
+          <path d="M 396.875 282 L 396.875 166.75 L 396.875 74.5" stroke="#616161" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_60">
+          <title>zone external - grey</title>
+          <path d="M 139.875 212.5 L 596.125 212.5 L 596.125 350 L 139.875 350 Z" stroke="#5086ec" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.0,3.0" stroke-width="1"/>
+          <text transform="translate(149.875 227.5)" fill="black">
+            <tspan font-family="Roboto" font-size="10" font-weight="400" fill="black" x="0" y="9">Data Plane</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

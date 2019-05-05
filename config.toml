@@ -69,6 +69,19 @@ googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
 	url    = "/istio/"
 	weight = 200
 
+[[menu.main]]
+	name   = "Traffic Director"
+	identifier = "traffic-director"
+	url    = "/traffic-director/"
+	weight = 1000
+
+[[menu.main]]
+	name   = "Traffic Director官方资料"
+	identifier = "traffic-director-official"
+	parent = "traffic-director"
+	url    = "/traffic-director/official/"
+	weight = 1010
+
 [blackfriday]
 	smartypants	= true
 	fractions = true
