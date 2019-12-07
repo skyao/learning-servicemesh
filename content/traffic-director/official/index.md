@@ -9,7 +9,7 @@ description: "介绍Google Traffic Director"
 
 > Enterprise-ready traffic management for open service mesh.
 > 
-> 企业就绪的流量管理，用于开放 service mesh
+> 适用于开放式服务网格的企业级流量管理工具。
 
 - 用于服务网格的流量管理
 
@@ -69,4 +69,4 @@ description: "介绍Google Traffic Director"
 
 Traffic Director官方网站首页：
 
-https://cloud.google.com/traffic-director/
+- https://cloud.google.com/traffic-director/  ：可选择多种语言

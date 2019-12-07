@@ -22,9 +22,13 @@ https://www.youtube.com/watch?v=FUITCYMCEhU
 
 ### 内容摘要
 
+TBD
 
+### 文本简化版本
 
+演讲的内容有一个简短的摘要版本，以文章的形式提供在 Google Cloud 上：
 
+[Google Cloud networking in depth: How Traffic Director provides global load balancing for open service mesh](https://cloud.google.com/blog/products/networking/traffic-director-global-traffic-management-for-open-service-mesh)
 
 ### 资料
 
