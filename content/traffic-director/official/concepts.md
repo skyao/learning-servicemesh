@@ -40,6 +40,10 @@ Traffic Director检测到Payments微服务的所有后端都是健康的，因�
 
 ![](images/td-global-lb-failover.svg)
 
+下面是找到的一个动态展示全局负载平衡工作方式的图片：
+
+![](images/Traffic_Director_for_open_service_mesh.gif)
+
 ### Traffic Direcotor和Istio
 
 [Istio](https://istio.io/) 提供了一个控制平面来保护，连接和监控微服务。它有三个组成部分：Pilot 负责流量管理，Mixer 负责可观察性，Istio Security 负责服务到服务的安全性。
