@@ -1,13 +1,10 @@
 ---
-date: 2018-10-04T20:00:00+08:00
-title: Service Mesh市场竞争
+title: "Servicemesh市场竞争"
+linkTitle: "市场竞争"
 weight: 120
-menu:
-  main:
-    parent: "introduction"
-keywords:
-- Service Mesh市场竞争
-description : "详细介绍Service Mesh市场竞争"
+date: 2021-09-22
+description: >
+  详细介绍Service Mesh市场竞争
 ---
 
 在过去的几年中，微服务技术得以迅猛普及，和容器技术一起成为这两年中最吸引眼球的技术热点。而以Spring Cloud为代表的传统侵入式开发框架，占据着微服务市场的主流地位，甚至一度成为微服务的代名词。
@@ -221,5 +218,4 @@ Red Hat正在与上游Istio社区合作，以帮助推进Istio框架，按照Red
 Service Mesh在过去的两年间，迅猛发展，涌现出多个产品，市场竞争激烈。而目前看，Istio借助k8s和云原生的大潮，依托Google在社区的巨大号召力，发展势头良好，有望成为这一轮大战的赢家。
 
 在下一章，我们将详细介绍Istio的架构和功能。
-
 

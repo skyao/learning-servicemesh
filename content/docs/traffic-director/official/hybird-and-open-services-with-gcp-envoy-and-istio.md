@@ -1,11 +1,10 @@
 ---
-date: 2018-10-07T11:00:00+08:00
-title: Hybrid and Open Services with GCP, Envoy and Istio
-weight: 1015
-menu:
-  main:
-    parent: "traffic-director-official"
-description : "Hybrid and Open Services with GCP, Envoy and Istio: A Talk with Google and Lyft"
+title: "Hybrid and Open Services with GCP, Envoy and Istio"
+linkTitle: "Hybrid and Open Services with GCP, Envoy and Istio"
+weight: 1104
+date: 2021-09-22
+description: >
+  Hybrid and Open Services with GCP, Envoy and Istio: A Talk with Google and Lyft
 ---
 
 

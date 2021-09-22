@@ -1,13 +1,10 @@
 ---
-date: 2018-10-04T20:00:00+08:00
-title: Service Mesh演进历程
+title: "Servicemesh演进历程"
+linkTitle: "演进历程"
 weight: 110
-menu:
-  main:
-    parent: "introduction"
-keywords:
-- Service Mesh演进历程
-description : "详细介绍Service Mesh技术的演进历程"
+date: 2021-09-22
+description: >
+  详细介绍Service Mesh技术的演进历程
 ---
 
 详细追溯一下Service Mesh技术的起源，发展和一步一步的演进历程。

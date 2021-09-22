@@ -1,18 +1,12 @@
 ---
-date: 2018-10-04T20:00:00+08:00
-title: 资料
-weight: 180
-menu:
-  main:
-    parent: "introduction"
-keywords:
-- 资料
-- 官方资料
-- 社区资料
-- 学习资料
-description : "收集service mesh的各种资料"
-draft: true
+title: "Servicemesh资料收集"
+linkTitle: "资料"
+weight: 190
+date: 2021-09-22
+description: >
+  收集service mesh的各种资料
 ---
+
 
 ## 官方资料
 

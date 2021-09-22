@@ -1,12 +1,10 @@
 ---
-date: 2018-10-04T20:00:00+08:00
-title: 介绍
-weight: 100
-keywords:
-- service mesh
-- 服务网格
-- 定义
-description : "介绍service mesh的由来和定义"
+title: "Servicemesh由来和定义"
+linkTitle: "由来和定义"
+weight: 101
+date: 2021-09-22
+description: >
+  介绍service mesh的由来和定义
 ---
 
 Service Mesh是新兴的微服务架构，被誉为下一代微服务，是云原生技术栈的代表技术之一。

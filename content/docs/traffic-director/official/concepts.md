@@ -1,11 +1,10 @@
 ---
-date: 2018-10-07T11:00:00+08:00
-title: Traffic Director概念
-weight: 1011
-menu:
-  main:
-    parent: "traffic-director-official"
-description : "详细介绍Traffic Director概念"
+title: "Traffic Director概念"
+linkTitle: "概念"
+weight: 1102
+date: 2021-09-22
+description: >
+  介绍Traffic Director概念
 ---
 
 服务网格在部署微服务和其他现代应用程序时变得越来越流行。在服务网格中，数据平面使用服务代理（例如[Envoy](https://www.envoyproxy.io/)）来控制流量，而服务网格控制平面则为服务代理提供策略、配置和智能。

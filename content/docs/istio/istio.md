@@ -1,11 +1,12 @@
 ---
-date: 2018-10-07T10:00:00+08:00
-title: Istio
-weight: 200
-keywords:
-- istio
-description : "介绍Istio项目"
+title: "Istio概述"
+linkTitle: "概述"
+weight: 201
+date: 2021-09-22
+description: >
+  Istio项目概述
 ---
+
 
 在前面的章节中，我们详细介绍了Service Mesh是什么，能解决什么问题，是如何一步一步演进而来，也给大家详细介绍了当前Service Mesh的主要产品和市场竞争情况。现在我们开始将关注点放在Istio这个开源项目上，详细给大家介绍Istio的架构和各个主要组件的功能，帮忙大家进一步深入了解Service Mesh技术。
 

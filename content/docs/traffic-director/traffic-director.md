@@ -1,8 +1,10 @@
 ---
-date: 2018-10-07T10:00:00+08:00
-title: Google Traffic Director
-weight: 1000
-description: "介绍Google Traffic Director"
+title: "Traffic Director概述"
+linkTitle: "概述"
+weight: 1001
+date: 2021-09-22
+description: >
+  Traffic Director概述
 ---
 
 Google Traffic Director 是与 AWS App Mesh 对标的 Service Mesh 产品。Traffic Director通过xDS协议与数据平面的Envoy进行通讯，可分别与Google Cloud的 [MIG](https://cloud.google.com/compute/docs/instance-groups/) 和 [NEG](https://cloud.google.com/load-balancing/docs/negs/) 两款产品结合去提供Service Mesh的能力。

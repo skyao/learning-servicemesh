@@ -1,14 +1,11 @@
 ---
-date: 2018-10-07T11:00:00+08:00
-title: Presentation：Traffic Director & Envoy-Based L7 ILB
-weight: 1016
-menu:
-  main:
-    parent: "traffic-director-official"
-description : "Traffic Director & Envoy-Based L7 ILB for Production-Grade Service Mesh & Istio (Cloud Next '19)"
+title: "Traffic Director & Envoy-Based L7 ILB"
+linkTitle: "Traffic Director & Envoy-Based L7 ILB"
+weight: 1105
+date: 2021-09-22
+description: >
+  Traffic Director & Envoy-Based L7 ILB for Production-Grade Service Mesh & Istio (Cloud Next '19)
 ---
-
-
 
 ### 背景
 

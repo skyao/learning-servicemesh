@@ -1,15 +1,12 @@
 ---
-date: 2018-10-07T11:00:00+08:00
-title: Istio架构和核心组件
+title: "Isito的架构设计和核心组件"
+linkTitle: "架构和组件"
 weight: 210
-menu:
-  main:
-    parent: "istio"
-keywords:
-- istio
-- 整体
-description : "详细介绍Isito的架构设计和核心组件"
+date: 2021-09-22
+description: >
+  介绍Isito的架构设计和核心组件
 ---
+
 
 ## 整体架构
 

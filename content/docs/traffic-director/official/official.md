@@ -1,9 +1,12 @@
 ---
-date: 2018-10-07T10:00:00+08:00
-title: Traffic Director官方资料
-weight: 1010
-description: "介绍Google Traffic Director"
+title: "Traffic Director官方资料概述"
+linkTitle: "概述"
+weight: 1101
+date: 2021-09-22
+description: >
+  Traffic Director官方资料概述
 ---
+
 
 来自Traffic Director官方网站的介绍资料，Traffic Director的口号是：
 
