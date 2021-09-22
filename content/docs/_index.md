@@ -1,5 +1,5 @@
 ---
-title: "Learning Linux Mint"
+title: "Learning Servicemesh"
 linkTitle: "学习笔记"
 weight: 1
 menu:
@@ -8,6 +8,6 @@ menu:
     pre: <i class='fas fa-book'></i>
 date: 2021-01-18
 description: >
-  Linux Mint学习笔记
+  Servicemesh学习笔记
 ---
 
