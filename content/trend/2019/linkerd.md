@@ -4,7 +4,7 @@ linkTitle: "Linkerd"
 weight: 120100
 date: 2021-09-23
 description: >
-  2019年Linkerd业界动态跟踪
+  Linkerd1.x基本止步于2019年
 ---
 
 

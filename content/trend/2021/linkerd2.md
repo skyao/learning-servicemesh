@@ -7,11 +7,49 @@ description: >
   2021年Linkerd2业界动态跟踪
 ---
 
+### 2021-02-24 Linkerd2 2.9.4发布
+
+https://github.com/linkerd/linkerd2/releases/tag/stable-2.9.4
+
+2.9.3: 这个稳定版修复了一个问题，即代理无法与旧版本的代理进行HTTP/1对话。它还修复了 linkerd-config-overrides 秘密在升级过程中被删除的问题，并提供了一个 linkerd 修复命令来恢复它，如果它被删除的话。
+
+2.9.4: 这个稳定版修复了一个问题，该问题导致代理无法 与旧版本的代理说话的问题（在2.9.3中宣布，但该修正并没有实际包括在内）。
+
+个人总结： 2.9.0版本有严重bug，这个2.9.4版本进行了修复。
+
 ### 2021-06-15 演讲：为什么云计算的未来将会构建在Rust之上？
 
 https://buoyant.io/media/why-the-future-of-the-cloud-will-be-built-on-rust/
 
+### 2021-03-11 Linkerd2 2.10.0发布
 
+https://github.com/linkerd/linkerd2/releases/tag/stable-2.10.0
+
+> This release introduces Linkerd extensions. The default control plane no longer includes Prometheus, Grafana, the dashboard, or several other components that previously shipped by default. This results in a much smaller and simpler set of core functionalities. Visibility and metrics functionality is now available in the Viz extension under the `linkerd viz` command. Cross-cluster communication functionality is now available in the Multicluster extension under the `linkerd multicluster` command. Distributed tracing functionality is now available in the Jaeger extension under the `linkerd jaeger` command.
+
+这个版本引入了Linkerd扩展。默认的控制平面不再包括Prometheus、Grafana、仪表盘或其他一些以前默认提供的组件。这导致了一个更小、更简单的核心功能集。可见性和指标功能现在可以通过 `linkerd viz` 命令在 Viz 扩展中使用。跨集群通信功能现在可以在 Multicluster 扩展中通过 `linkerd multicluster` 命令使用。分布式跟踪功能现在可以在 Jaeger 扩展中通过 `linkerd jaeger` 命令使用。
+
+> This release also introduces the ability to mark certain ports as "opaque", indicating that the proxy should treat the traffic as opaque TCP instead of
+> attempting protocol detection. This allows the proxy to provide TCP metrics and mTLS for server-speaks-first protocols. It also enables support for
+> TCP traffic in the Multicluster extension.
+
+这个版本还引入了将某些端口标记为 "不透明" 的功能。表示代理应该将流量视为不透明的TCP，而不是试图进行协议检测。这允许代理提供TCP指标和服务器优先协议的mTLS。它还可以支持多集群扩展中的TCP流量。
+
+个人总结： 引入Linkerd扩展
+
+### 2021-04-16 Linkerd2 2.10.0发布
+
+https://github.com/linkerd/linkerd2/releases/tag/stable-2.10.1
+
+这个稳定版增加了对Apple Silicon M1芯片的CLI支持，并支持 SMI的TrafficSplit v1alpha2。
+
+### 2021-05-18 Linkerd2 2.10.2发布
+
+https://github.com/linkerd/linkerd2/releases/tag/stable-2.10.2
+
+> This stable release fixes a proxy task leak that could be triggered when clients disconnect when a service is in failfast. It also includes fixes for the fuzz testing that was performed on the proxy and its dependencies; 
+
+这个稳定版修复了一个代理任务泄露问题，该问题可能会在客户端处于故障快速状态时触发断开时可能引发的代理任务泄漏。它还包括对代理及其依赖的模糊测试的修复。
 
 ### 2021-07-08 CNCF毕业
 
