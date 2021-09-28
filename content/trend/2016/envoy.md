@@ -13,7 +13,42 @@ description: >
 
 ## 年度动态
 
-- 2016年9月13日，Matt Klein宣布Envoy在github开源，直接发布1.0.0版本
+### 2016-09-13 Envoy1.0.0版本发布
+
+https://github.com/envoyproxy/envoy/releases/tag/v1.0.0
+
+2016年9月13日，Matt Klein宣布Envoy在github开源，直接发布1.0.0版本。版本说明只有四个单词: Initial open source release.
+
+![](images/envoy-1.0.0.jpg)
+
+### 2016-12-01 Envoy1.1.0版本发布
+
+https://github.com/envoyproxy/envoy/releases/tag/v1.1.0
+
+[版本更新列表](https://www.envoyproxy.io/docs/envoy/latest/version_history/v1.1.0): 
+
+- Switch from Jannson to RapidJSON for our JSON library (allowing for a configuration schema in 1.2.0).
+- Upgrade [recommended version](https://www.envoyproxy.io/docs/envoy/v1.5.0/install/building#install-requirements) of various other libraries.
+- Configurable DNS refresh rate for DNS service discovery types.
+- Upstream circuit breaker configuration can be [overridden via runtime](https://www.envoyproxy.io/docs/envoy/v1.5.0/configuration/cluster_manager/cluster_runtime#config-cluster-manager-cluster-runtime).
+- [Zone aware routing support](https://www.envoyproxy.io/docs/envoy/v1.5.0/intro/arch_overview/load_balancing#arch-overview-load-balancing-zone-aware-routing).
+- Generic header matching routing rule.
+- HTTP/2 graceful connection draining (double GOAWAY).
+- DynamoDB filter [per shard statistics](https://www.envoyproxy.io/docs/envoy/v1.5.0/configuration/http_filters/dynamodb_filter#config-http-filters-dynamo) (pre-release AWS feature).
+- Initial release of the [fault injection HTTP filter](https://www.envoyproxy.io/docs/envoy/v1.5.0/configuration/http_filters/fault_filter#config-http-filters-fault-injection).
+- HTTP [rate limit filter](https://www.envoyproxy.io/docs/envoy/v1.5.0/configuration/http_filters/rate_limit_filter#config-http-filters-rate-limit) enhancements (note that the configuration for HTTP rate limiting is going to be overhauled in 1.2.0).
+- Added [refused-stream retry policy](https://www.envoyproxy.io/docs/envoy/v1.5.0/configuration/http_filters/router_filter#config-http-filters-router-x-envoy-retry-on).
+- Multiple [priority queues](https://www.envoyproxy.io/docs/envoy/v1.5.0/intro/arch_overview/http_routing#arch-overview-http-routing-priority) for upstream clusters (configurable on a per route basis, with separate connection pools, circuit breakers, etc.).
+- Added max connection circuit breaking to the [TCP proxy filter](https://www.envoyproxy.io/docs/envoy/v1.5.0/intro/arch_overview/tcp_proxy#arch-overview-tcp-proxy).
+- Added [CLI](https://www.envoyproxy.io/docs/envoy/v1.5.0/operations/cli#operations-cli) options for setting the logging file flush interval as well as the drain/shutdown time during hot restart.
+- A very large number of performance enhancements for core HTTP/TCP proxy flows as well as a few new configuration flags to allow disabling expensive features if they are not needed (specifically request ID generation and dynamic response code stats).
+- Support Mongo 3.2 in the [Mongo sniffing filter](https://www.envoyproxy.io/docs/envoy/v1.5.0/configuration/network_filters/mongo_proxy_filter#config-network-filters-mongo-proxy).
+- Lots of other small fixes and enhancements not listed.
+
+个人小结：
+
+- 各种类库更新，bug fix，性能优化
+- 新增区域感知路由支持，通用的头匹配路由规则，HTTP/2优雅连接耗尽（双GOAWAY），故障注入HTTP过滤器，增加了拒绝流重试策略，上游集群的多个优先级队列，为TCP代理过滤器增加了最大连接断路功能
 
 ## Envoy的历史追溯
 
