@@ -1,7 +1,7 @@
 ---
 title: "(2018)后 Kubernetes时代的微服务"
 linkTitle: "后 Kubernetes时代的微服务"
-weight: 1330
+weight: 1430
 date: 2021-10-31
 description: >
   在Kubernetes诞生的前几年微服务还是分布式系统最流行的架构风格。但Kubernetes和云原生运动已经改变了应用程序设计和开发的方方面面。在本文中，我要质疑微服务的一些理念，指明它们在后Kubernetes时代不会再像以前那样强大。
@@ -49,7 +49,7 @@ https://cloudnative.to/blog/microservices-post-kubernetes/
 
 与 ESB 的不同之处在于，与服务网格不同的是，只有一个集中路由层，每个微服务通常都有自己的路由器—— 一个带有附加中央管理层的代理逻辑的 sidecar 容器。 更重要的是，管道（平台和服务网格）没有任何业务逻辑；它们完全专注于基础架构方面，使服务专注于业务逻辑。 如图所示，这代表了 ESB 和微服务学习的演变，以适应云环境的动态和不可靠特性。
 
-![img](https://cloudnative.to/blog/microservices-post-kubernetes/006tSBxtly1fuwq6pf4fyj30gn057gnd.jpg)
+![006tSBxtly1fuwq6pf4fyj30gn057gnd](images/microservices-post-kubernetes/006tSBxtly1fuwq6pf4fyj30gn057gnd.jpg)
 
 **SOA vs MSA 与 CNA**
 

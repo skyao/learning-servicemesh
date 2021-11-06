@@ -1,7 +1,7 @@
 ---
 title: "(2020)2020年ServiceMesh技术展望"
 linkTitle: "2020年ServiceMesh技术展望"
-weight: 1700
+weight: 1850
 date: 2021-10-29
 description: >
   本文由 ServiceMesher 社区治理委员与业界知名大牛针对 Service Mesh 技术发表的看法汇总而成。
